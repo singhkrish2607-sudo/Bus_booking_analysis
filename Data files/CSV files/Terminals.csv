@@ -1,0 +1,27 @@
+terminal_id,city_id,terminal_name,address,latitude,longitude,status
+1,1,Dadar East Bus Point (Kabutar Khana),"Kabutar Khana, Dadar East, Mumbai",19.0178,72.8478,active
+2,1,Borivali East Bus Stop,"Western Express Highway, Borivali East, Mumbai",19.2288,72.8544,active
+3,2,Swargate Bus Stand,"Swargate, Pune",18.5018,73.8636,active
+4,2,Shivajinagar Bus Stand,"Shivajinagar, Pune",18.5308,73.8475,active
+5,3,Kempegowda Bus Station (Majestic),"Majestic, Bengaluru",12.9767,77.5713,active
+6,3,Madiwala Bus Point (Silk Board),"Silk Board Junction, Hosur Road, Bengaluru",12.9176,77.6233,active
+7,4,Mahatma Gandhi Bus Station (MGBS),"Imlibun, Hyderabad",17.3784,78.483,active
+8,4,Ameerpet Bus Point,"Ameerpet, Hyderabad",17.4375,78.4483,active
+9,5,CMBT Koyambedu,"Koyambedu, Chennai",13.0694,80.1948,active
+10,6,"Kadamba Bus Stand, Panaji","Patto, Panaji, Goa",15.4989,73.8342,active
+11,7,Geeta Mandir Bus Stand,"Gita Mandir Road, Ahmedabad",23.0126,72.5967,active
+12,8,Surat Central Bus Station,"Station Road, Surat",21.202,72.842,active
+13,9,Sayajigunj Bus Stand,"Sayajigunj, Vadodara",22.3113,73.1837,active
+14,10,Maharana Pratap ISBT (Kashmere Gate),"Kashmere Gate, Delhi",28.6677,77.228,active
+15,10,Anand Vihar ISBT,"Anand Vihar, Delhi",28.6469,77.316,active
+16,11,Sindhi Camp Bus Stand,"Sindhi Camp, Jaipur",26.92,75.792,active
+17,12,IFFCO Chowk Bus Point,"IFFCO Chowk, Gurugram",28.472,77.072,active
+18,13,Pandit Nehru Bus Station (PNBS),"Vijayawada Bus Station Road, Vijayawada",16.517,80.622,active
+19,19,"Central Bus Stand, Kolhapur",Kolhapur,16.7,74.238,active
+20,20,"Central Bus Stand, Belagavi",Belagavi,15.856,74.509,active
+21,14,Ratnagiri Bus Stand,Ratnagiri,16.9944,73.3,active
+22,15,Vellore New Bus Stand,Vellore,12.9358,79.1359,active
+23,16,Kurnool Bus Stand,Kurnool,15.83,78.05,active
+24,17,Anantapur Bus Stand,Anantapur,14.68,77.6,active
+25,18,Suryapet Bus Stand,Suryapet,17.14,79.62,active
+26,21,Mahamarg Bus Stand,Nashik,19.999,73.78,inactive

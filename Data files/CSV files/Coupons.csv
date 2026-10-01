@@ -1,0 +1,13 @@
+coupon_id,coupon_code,description,discount_type,discount_value,max_discount_amount,min_booking_amount,valid_from,valid_until,usage_limit_per_user,total_usage_limit,status,created_at
+1,WELCOME100,Flat Rs 100 off on your first booking,flat,100,,600,2025-09-01,2025-12-31,1,4000,active,2025-08-29 10:00:00
+2,NEWUSER15,15% off up to Rs 200 for new users,percentage,15,200.0,500,2025-09-01,2025-12-31,1,3000,active,2025-08-29 10:00:00
+3,WEEKEND10,10% off on Fri/Sat/Sun departures,percentage,10,120.0,400,2025-10-01,2025-12-31,6,8000,active,2025-09-28 10:00:00
+4,DIWALI25,Diwali special - 25% off up to Rs 300,percentage,25,300.0,800,2025-10-05,2025-10-26,2,900,active,2025-10-02 10:00:00
+5,NYEGOA20,New Year Goa getaway - 20% off up to Rs 400,percentage,20,400.0,1000,2025-12-10,2025-12-31,2,350,active,2025-12-07 10:00:00
+6,UPI50,Flat Rs 50 off on UPI payments,flat,50,,300,2025-09-01,2025-12-31,10,12000,active,2025-08-29 10:00:00
+7,SAVE10,10% off up to Rs 100,percentage,10,100.0,300,2025-10-01,2025-11-30,3,6000,active,2025-09-28 10:00:00
+8,EARLYBIRD12,12% off when you book 7+ days ahead,percentage,12,150.0,500,2025-09-01,2025-12-31,5,10000,active,2025-08-29 10:00:00
+9,CARD75,Flat Rs 75 off on card payments,flat,75,,700,2025-10-01,2025-12-31,4,3000,active,2025-09-28 10:00:00
+10,FLAT200,Flat Rs 200 off on long-haul bookings,flat,200,,1500,2025-11-15,2025-12-31,2,1200,active,2025-11-12 10:00:00
+11,PUNEFRI15,Friday Mumbai-Pune 15% off up to Rs 100,percentage,15,100.0,400,2025-10-01,2025-12-15,3,1500,active,2025-09-28 10:00:00
+12,SUMMER20,Summer sale 20% off up to Rs 250,percentage,20,250.0,600,2025-04-01,2025-06-30,2,5000,expired,2025-03-29 10:00:00

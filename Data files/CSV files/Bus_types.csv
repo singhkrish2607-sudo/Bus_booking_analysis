@@ -1,0 +1,6 @@
+bus_type_id,type_name,category,ac_type,description,status
+1,AC Sleeper,Sleeper,AC,Air-conditioned sleeper coach,active
+2,Non-AC Sleeper,Sleeper,Non-AC,Non air-conditioned sleeper coach,active
+3,AC Seater,Seater,AC,Air-conditioned seater coach,active
+4,Non-AC Seater,Seater,Non-AC,Non air-conditioned seater coach,active
+5,AC Semi-Sleeper,Semi-Sleeper,AC,Air-conditioned semi-sleeper coach,active

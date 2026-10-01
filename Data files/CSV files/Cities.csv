@@ -1,0 +1,22 @@
+city_id,city_name,city_code,state,country,latitude,longitude,is_major_hub,status,created_at,updated_at
+1,Mumbai,MUM,Maharashtra,India,19.076,72.8777,1,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+2,Pune,PNQ,Maharashtra,India,18.5204,73.8567,1,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+3,Bengaluru,BLR,Karnataka,India,12.9716,77.5946,1,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+4,Hyderabad,HYD,Telangana,India,17.385,78.4867,1,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+5,Chennai,MAA,Tamil Nadu,India,13.0827,80.2707,1,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+6,Panaji,GOI,Goa,India,15.4909,73.8278,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+7,Ahmedabad,AMD,Gujarat,India,23.0225,72.5714,1,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+8,Surat,STV,Gujarat,India,21.1702,72.8311,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+9,Vadodara,BDQ,Gujarat,India,22.3072,73.1812,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+10,Delhi,DEL,Delhi,India,28.6139,77.209,1,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+11,Jaipur,JAI,Rajasthan,India,26.9124,75.7873,1,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+12,Gurugram,GGN,Haryana,India,28.4595,77.0266,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+13,Vijayawada,VGA,Andhra Pradesh,India,16.5062,80.648,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+14,Ratnagiri,RTC,Maharashtra,India,16.9902,73.312,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+15,Vellore,VLR,Tamil Nadu,India,12.9165,79.1325,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+16,Kurnool,KJB,Andhra Pradesh,India,15.8281,78.0373,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+17,Anantapur,ATP,Andhra Pradesh,India,14.6819,77.6006,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+18,Suryapet,SRP,Telangana,India,17.1405,79.6236,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+19,Kolhapur,KLH,Maharashtra,India,16.705,74.2433,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+20,Belagavi,IXG,Karnataka,India,15.8497,74.4977,0,active,2025-01-02 09:00:00,2026-10-01 16:27:00
+21,Nashik,NSK,Maharashtra,India,19.9975,73.7898,0,inactive,2025-01-02 09:00:00,2026-10-01 16:27:00

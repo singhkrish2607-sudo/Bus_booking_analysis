@@ -1,0 +1,7 @@
+admin_id,full_name,email,password_hash,role,status,created_at
+1,Rohan Kulkarni,rohan.kulkarni@sahyadriexpress.in,$2b$12$jGpE5xYVnbGxq3rSvf3Jn6RKxy/Wwt3F/T0B9khL3HcrxsnJYJ36G,super_admin,active,2025-01-06 10:00:00
+2,Sneha Iyer,sneha.iyer@sahyadriexpress.in,$2b$12$szBADh0f.hWhhH93f5wfrx6AdC7oyqJwgy928yYnSG31xqzZ.pw35,ops_manager,active,2025-01-06 10:30:00
+3,Imran Shaikh,imran.shaikh@sahyadriexpress.in,$2b$12$Ln3YVJcLTx60jD0ztUb5w9Fzj5UbqPJk/a5.waNk4zzaDd7fOMaVX,ops_manager,active,2025-02-10 11:00:00
+4,Pooja Deshmukh,pooja.deshmukh@sahyadriexpress.in,$2b$12$o9VjpArQSi/2gC/Q2FDQpcULxzDd1DLRFvu/op.AtrVAhwoK0MuaS,support_staff,active,2025-03-03 09:30:00
+5,Karthik Reddy,karthik.reddy@sahyadriexpress.in,$2b$12$TN4KEfroMzAz87DK0uvUz4w1xwyzlgfjZl6l4DobIifJZCBPm7FLX,support_staff,active,2025-03-03 09:45:00
+6,Nisha Patel,nisha.patel@sahyadriexpress.in,$2b$12$bDaAx3Av1t2PdHs1fAQ12ua.n8wDmc55AZMQxwVJF4SG1KhzJypa/,support_staff,inactive,2025-04-14 09:00:00
