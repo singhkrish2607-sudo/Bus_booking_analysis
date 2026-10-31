@@ -329,3 +329,56 @@ round(sum(sold)*100.0/count(*), 2) as seat_rate
 from  seat_sales
 where is_ladies_seat is not null
 group by is_ladies_seat;
+
+
+-- Problem 19: 
+-- Identifying "Ghost Capacity" (High-Demand Routes with Low Realized Occupancy)
+-- Business problem: Some routes look popular on paper because they get lots of bookings, 
+-- but last-minute cancellations leave buses running at 50% capacity—costing fuel and
+-- driver hours while turning away other potential passengers. 
+
+WITH trip_summary AS (
+    SELECT 
+        t.trip_id,
+        t.route_id,
+        t.available_seats,
+        COUNT(b.booking_id) AS total_bookings,
+        COALESCE(SUM(b.total_seats), 0) AS gross_seats_booked,
+        COALESCE(SUM(CASE WHEN b.booking_status = 'cancelled' THEN b.total_seats ELSE 0 END), 0) AS cancelled_seats,
+        COALESCE(SUM(CASE WHEN b.booking_status = 'confirmed' THEN b.total_seats ELSE 0 END), 0) AS confirmed_seats,
+        COALESCE(SUM(CASE WHEN b.booking_status = 'confirmed' THEN b.total_fare ELSE 0 END), 0) AS net_revenue,
+        COALESCE(SUM(CASE WHEN b.booking_status = 'cancelled' THEN b.total_fare ELSE 0 END), 0) AS lost_revenue
+    FROM Trips t
+    LEFT JOIN Bookings b ON t.trip_id = b.trip_id
+    WHERE t.status = 'completed'
+    GROUP BY t.trip_id, t.route_id, t.available_seats
+),
+route_performance AS (
+    SELECT 
+        r.route_id,
+        r.route_code,
+        r.route_name,
+        COUNT(ts.trip_id) AS completed_trips,
+        SUM(ts.gross_seats_booked) AS gross_seats_booked,
+        SUM(ts.cancelled_seats) AS cancelled_seats,
+        SUM(ts.confirmed_seats) AS net_occupied_seats,
+        SUM(ts.confirmed_seats + ts.available_seats) AS total_seat_capacity,
+        SUM(ts.net_revenue) AS net_revenue,
+        SUM(ts.lost_revenue) AS lost_revenue
+    FROM Routes r
+    JOIN trip_summary ts ON r.route_id = ts.route_id
+    GROUP BY r.route_id, r.route_code, r.route_name
+)
+SELECT 
+    route_code,
+    route_name,
+    completed_trips,
+    gross_seats_booked,
+    cancelled_seats,
+    net_occupied_seats,
+    ROUND((cancelled_seats * 100.0) / NULLIF(gross_seats_booked, 0), 2) AS seat_cancellation_rate_pct,
+    ROUND((net_occupied_seats * 100.0) / NULLIF(total_seat_capacity, 0), 2) AS realized_occupancy_pct,
+    ROUND(net_revenue, 2) AS net_revenue,
+    ROUND(lost_revenue, 2) AS lost_revenue
+FROM route_performance
+ORDER BY seat_cancellation_rate_pct DESC;
