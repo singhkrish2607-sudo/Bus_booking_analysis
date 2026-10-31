@@ -18,7 +18,7 @@ This project contains:
 -   A complete MySQL database schema for a bus-booking platform
 -   Realistic synthetic booking and operational data
 -   An Entity Relationship (ER) diagram
--   18 SQL business-analysis problems
+-   19 SQL business-analysis problems
 -   Queries using joins, aggregations, conditional logic, CTEs, date
     functions, and `UNION ALL`
 -   Business-oriented questions designed to turn raw transactional data
@@ -38,7 +38,7 @@ Bus-Booking-Data-Analysis/
 │   └── Database schema + seed data
 │
 ├── Analysis Queries.sql
-│   └── 18 SQL business-analysis queries
+│   └── 19 SQL business-analysis queries
 │
 ├── Bus Booking ER Digram.png
 │   └── Entity Relationship Diagram
@@ -228,6 +228,8 @@ The `Analysis Queries.sql` file contains 18 business questions.
     -   Window vs. aisle seats
     -   Lower vs. upper deck
     -   Ladies-reserved vs. normal seats
+
+19. **Identifying "Ghost Capacity" (High-Demand Routes with Low Realized Occupancy)**
 
 ------------------------------------------------------------------------
 
